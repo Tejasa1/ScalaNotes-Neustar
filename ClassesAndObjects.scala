@@ -2,7 +2,7 @@ package org.example
 
 
 //Classes And Objects
-object Chapter2 extends App {
+object ClassesAndObjects extends App {
 
   /**
    two types var and val
