@@ -3,7 +3,7 @@ import scala.collection.immutable.HashSet
 import scala.collection.mutable
 import scala.collection.mutable.Set
 
-object Chapter3 extends App{
+object StringListSetTuples extends App{
 
   val greetStrings = new Array[String](3)
   greetStrings.update(0, "Hello")
