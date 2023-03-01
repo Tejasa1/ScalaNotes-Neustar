@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "PiiEncodingFormat": {
+      "type": "string"
+    },
+    "BridgeDataType": {
+      "type": "string"
+    },
+    "BridgeDataColumns": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "PublicKeyVersion": {
+      "type": "string"
+    },
+    "BridgeSetHash": {
+      "type": "string"
+    },
+    "BridgeProvider": {
+      "type": "string"
+    },
+    "VersionId": {
+      "type": "string"
+    },
+    "DataProvider": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "PiiEncodingFormat",
+    "BridgeDataType",
+    "BridgeDataColumns",
+    "PublicKeyVersion",
+    "BridgeSetHash",
+    "BridgeProvider",
+    "VersionId",
+    "DataProvider"
+  ]
+}

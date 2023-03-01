@@ -1,0 +1,13 @@
+{
+  "PiiEncodingFormat": "BASE64-HMAC_SHA256",
+  "BridgeDataType": "EMAIL",
+  "BridgeDataColumns": [
+    "BRIDGE_ID",
+    "EMAIL"
+  ],
+  "PublicKeyVersion": "2015_09_15",
+  "BridgeSetHash": "0ab67134110ad43535bd287b6da0754284d54064ef832ac07bb9bd7afe1e0151527b0d34802e43cef7505ea70abbee41e66ebf883846b5a5b13b3db10e2e3422",
+  "BridgeProvider": "NEUSTAR",
+  "VersionId": "neu_iri_e_20230105",
+  "DataProvider": "IRI"
+}
